@@ -1,11 +1,11 @@
 {
   "platform": "android",
-  "version": "0.7.6",
-  "versionCode": 25,
-  "file": "https://raw.githubusercontent.com/zebin41s-source/sanjiaozhou/main/apk/delta-melodica-android-v0.7.6-github-update.apk",
+  "version": "0.7.7",
+  "versionCode": 26,
+  "file": "https://raw.githubusercontent.com/zebin41s-source/sanjiaozhou/main/apk/delta-melodica-android-v0.7.7-calibration.apk",
   "notes": [
-    "修复设置页检查更新：从 GitHub 仓库读取最新版本，并使用实际安装版本比较。",
-    "移除设置页“权限与数据说明”按钮。",
-    "保留曲库中已加入的本地曲谱删除功能。"
+    "修复校准后仍提示请先校准：同步保存 12 个点位，并在显示成功前读回验证。",
+    "校准数据保存失败时保留校准界面，提示重试，不再误报保存成功。",
+    "保留 GitHub 检查更新、曲库删除和此前设置页精简。"
   ]
 }
