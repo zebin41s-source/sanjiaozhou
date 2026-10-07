@@ -3,9 +3,9 @@
 此仓库提供应用的 Android 更新清单与安装包。
 
 - [当前版本清单](android-version.json)
+- [v0.7.8 安装包](apk/delta-melodica-android-v0.7.8-calibration-fix.apk)
+- [v0.7.8 更新说明](release-notes.md)
 - [v0.7.7 安装包](apk/delta-melodica-android-v0.7.7-calibration.apk)
-- [v0.7.7 更新说明](release-notes.md)
-- [v0.7.6 安装包](apk/delta-melodica-android-v0.7.6-github-update.apk)
 
 应用“设置 → 检查更新”读取 `main/android-version.json`，根据 `versionCode` 与设备上安装的版本比较。发现新版本时，点击“前往 GitHub 下载”会打开清单中的 `file` 链接。
 

@@ -1,11 +1,11 @@
 {
   "platform": "android",
-  "version": "0.7.7",
-  "versionCode": 26,
-  "file": "https://raw.githubusercontent.com/zebin41s-source/sanjiaozhou/main/apk/delta-melodica-android-v0.7.7-calibration.apk",
+  "version": "0.7.8",
+  "versionCode": 27,
+  "file": "https://raw.githubusercontent.com/zebin41s-source/sanjiaozhou/main/apk/delta-melodica-android-v0.7.8-calibration-fix.apk",
   "notes": [
-    "修复校准后仍提示请先校准：同步保存 12 个点位，并在显示成功前读回验证。",
-    "校准数据保存失败时保留校准界面，提示重试，不再误报保存成功。",
-    "保留 GitHub 检查更新、曲库删除和此前设置页精简。"
+    "修复校准界面“保存”和“撤销”的点击区域接反，保存后可正常播放。",
+    "进度显示实际已标记点位数，顶部操作按钮保持固定位置。",
+    "修复标记点位时的绘制崩溃；保留曲库删除、GitHub 检查更新和设置页精简。"
   ]
 }
